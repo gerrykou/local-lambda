@@ -21,3 +21,5 @@ Stop the running container
 docker compose down
 ```
 Use `docker compose down -v` if you mounted volumes in your `compose.yaml` file.
+
+Screen recording preview on [youtube](https://youtu.be/1h9-kPMH5Xw?si=nlN7ksPoZMKhyvme)
