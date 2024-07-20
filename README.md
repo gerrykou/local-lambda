@@ -8,7 +8,7 @@ How to test a Docker `AWS Lambda` locally using `docker compose`.
 We 'll follow instruction from [here](https://docs.aws.amazon.com/lambda/latest/dg/python-image.html#python-image-instructions), `(Optional) Test the image locally` section.  
 But we 'll use `docker compose` and the Docker [watch](https://docs.docker.com/compose/file-watch/) feature.  
 
-Start the containers
+Start the container
 ```sh
 docker compose up --watch
 ```
