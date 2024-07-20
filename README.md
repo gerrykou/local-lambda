@@ -1,3 +1,7 @@
+
+![](https://img.shields.io/badge/Docker-808080?logo=docker&logoSize=auto)
+![](https://img.shields.io/badge/-AWS%20Lambda-FF9900?style=flat-square&logo=AWS%20Lambda&logoColor=white)
+
 # local-lambda
 How to test a docker lambda locally?
 
