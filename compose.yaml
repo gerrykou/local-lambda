@@ -1,0 +1,15 @@
+services:
+  local-lambda:
+    build: .
+    platform: linux/amd64
+    develop:
+      watch:
+        - action: rebuild
+          path: src/ 
+          target: /var/task # this is is the ${LAMBDA_TASK_ROOT} directory
+    ports:
+      - "9000:8080"
+    # You 'll need to mount volumes to the container if you want to give it permissions in your AWS dev environment
+    # volumes:
+    # - $HOME/.aws/credentials:/home/app/.aws/credentials:ro
+    # - $HOME/.aws/dev_config:/home/app/.aws/config:ro
