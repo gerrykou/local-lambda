@@ -16,7 +16,7 @@ Invoke the Lambda
 ```sh
 curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
 ```
-Stop the running containers
+Stop the running container
 ```sh
 docker compose down
 ```
